@@ -1,0 +1,195 @@
+/* .dashboard-container {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.dashboard-card {
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-card h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    font-size: 18px;
+    padding: 14px 20px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #e9ecef;
+} */
+
+/* Dashboard Container
+.dashboard {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+/* Dashboard Container */
+/* .dashboard {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  
+  .dashboard-card {
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+
+  .dashboard-card h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+ 
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+
+  .dashboard-card a {
+    font-size: 18px;
+    padding: 14px 0;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+    .dashboard-card a:hover {
+    background-color: #0056b3;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .dashboard-card a:active {
+    background-color: #004085;
+    transform: translateY(0);
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-card a {
+      width: 100%;
+    }
+  } */
+   /* Dashboard Container */
+.dashboard {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Dashboard Card Style */
+  .dashboard-card {
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  .dashboard-card h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  /* Doctor Card */
+  .doctor-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Doctor Name and Specialization */
+  .doctor-card h3 {
+    font-size: 22px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .doctor-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  /* Timeslot List */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  /* Book Button */
+  .book-btn {
+    background-color: #28a745;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .dashboard-card {
+      max-width: 100%;
+    }
+  }
+  

@@ -1,0 +1,38 @@
+.results-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.results-card {
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.results-card h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.results-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.results-list li {
+    padding: 12px;
+    font-size: 18px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.results-list li:hover {
+    background-color: #e9ecef;
+}
